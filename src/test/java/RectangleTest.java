@@ -10,7 +10,7 @@ public class RectangleTest {
     }
 
     @Test
-    public void shouldReturnArea24ForLength8AndBreadth3() {
-        assertEquals(24,new Rectangle(8,3).area());
+    public void shouldReturnArea32ForLength8AndBreadth4() {
+        assertEquals(24,new Rectangle(8,4).area());
     }
 }
